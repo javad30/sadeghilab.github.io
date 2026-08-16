@@ -1,41 +1,34 @@
 ---
-# Display name
 title: "Dr. Javad Sadeghi"
-
-# Full name (for SEO)
 first_name: Javad
 last_name: Sadeghi
-
-# Username / Role
 superuser: true
 
-# Role/position
-role: "Assistant Professor of Genomics & Microbial Ecology"
+role: "Principal Investigator & Assistant Professor"
 
-# Organizations/Affiliations
+user_groups:
+  - "Principal Investigators"
+
 organizations:
   - name: Brandon University
     url: "https://www.brandonu.ca"
 
-# Short bio (displayed in author boxes)
-bio: "My research focuses on microbial ecology, evolutionary genomics, and plant-microbiome interactions under environmental change."
+bio: "Assistant Professor in Genomics focusing on microbial ecology, evolution, and plant-microbiome interactions."
 
 interests:
   - Microbial Ecology & Evolution
   - Plant-Microbiome Interactions
-  - Genomics & Metagenomics
-  - Computational Biology & Bioinformatics
+  - Genomics & Bioinformatics
 
 education:
   courses:
     - course: Postdoctoral Fellowship (Microbial Ecology)
       institution: University of Toronto
       year: 2026
-    - course: PhD in Biological Sciences (Genetics / Ecology)
+    - course: PhD in Biological Sciences
       institution: University of Windsor
       year: 2022
 
-# Social/Academic Links
 social:
   - icon: envelope
     icon_pack: fas
@@ -53,4 +46,4 @@ social:
 email: "sadeghij@brandonu.ca"
 ---
 
-I am an Assistant Professor in Genomics in the Department of Biology at Brandon University. My research group, the **Microbial Adaptation & Evolution (MAE) Lab**, investigates how environmental disturbances and climatic stresses shape microbial community dynamics, functional genomics, and plant-microbiome symbiosis.
+I am an Assistant Professor of Genomics in the Department of Biology at Brandon University and the Principal Investigator of the **Microbial Adaptation & Evolution (MAE) Lab**.

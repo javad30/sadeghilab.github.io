@@ -1,66 +1,46 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
-summary: ''
+title: "Microbial Adaptation & Evolution Lab"
+summary: "MAE Lab at Brandon University"
 date: 2026-08-16
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      # Empty username uses the main author profile
-      username: admin
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Contact Me
-        url: 'mailto:sadeghij@brandonu.ca'
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      title: "Microbial Adaptation & Evolution Lab"
+      text: "Investigating the genomic, ecological, and evolutionary mechanisms driving microbial communities and plant-microbiome interactions under environmental change."
+      image:
+        filename: ""
+      cta:
+        label: "Meet Our Team"
+        url: "/people/"
+      cta_alt:
+        label: "Contact Us"
+        url: "mailto:sadeghij@brandonu.ca"
     design:
-      # Gradient mesh background
       background:
         gradient_mesh:
           enable: true
 
-      name:
-        size: md
-
-      avatar:
-        size: medium
-        shape: circle
-
   - block: markdown
     content:
-      title: '🔬 Research Focus'
-      subtitle: 'Microbial Adaptation & Evolution (MAE) Group'
+      title: "🔬 Research Directions"
+      subtitle: "Department of Biology | Brandon University"
       text: |-
-        Our research investigates the ecological and evolutionary mechanisms shaping microbial communities in natural and managed ecosystems. 
+        Our research investigates how environmental stressors shape microbial diversity, functional potential, and host symbiosis.
 
-        Using a combination of **multi-omics**, **evolutionary genomics**, and **plant-microbiome experiments**, we explore how environmental stresses and host interactions drive microbial adaptation under climate change.
+        - **Microbial Evolution & Stress Adaptation:** Resolving phenotypic and genomic adaptation in changing ecosystems.
+        - **Plant-Microbiome Interactions:** Deciphering root- and soil-associated microbial dynamics.
+        - **Genomics & Bioinformatics:** Integrating metagenomics and high-throughput sequencing pipelines.
 
-        Interested in graduate or undergraduate research opportunities? Please reach out to collaborate!
+        We welcome inquiries from prospective honours, MSc students, and postdoctoral researchers!
     design:
-      columns: '1'
+      columns: "1"
 
   - block: collection
     id: papers
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
+      title: "Recent Publications"
       filters:
         folders:
           - publications
@@ -69,35 +49,11 @@ sections:
       view: citation
 
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-
-  - block: collection
     id: news
     content:
-      title: Recent News & Updates
-      subtitle: ''
-      text: ''
+      title: "Lab News"
       page_type: blog
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      offset: 0
-      order: desc
+      count: 3
     design:
       view: card
-      spacing:
-        padding: [0, 0, 0, 0]
 ---
