@@ -9,7 +9,7 @@ sections:
   - block: resume-biography-3
     content:
       # Empty username uses the main author profile
-      username: ''
+      username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
