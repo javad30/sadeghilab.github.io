@@ -4,31 +4,10 @@ date: 2026-08-16
 type: landing
 
 sections:
-  - block: people
+  - block: community
     content:
       title: "Principal Investigator"
-      user_groups:
-        - "Principal Investigators"
-    design:
-      show_interests: true
-      show_role: true
-      show_social: true
-
-  - block: people
-    content:
-      title: "Graduate Researchers"
-      user_groups:
-        - "Graduate Students"
-    design:
-      show_interests: true
-      show_role: true
-      show_social: true
-
-  - block: people
-    content:
-      title: "Undergraduate Researchers"
-      user_groups:
-        - "Undergraduate Students"
+      username: admin
     design:
       show_interests: true
       show_role: true
@@ -37,8 +16,11 @@ sections:
   - block: markdown
     content:
       title: "Join Our Team"
+      subtitle: "Prospective Graduate & Undergraduate Researchers"
       text: |-
-        We are actively looking for motivated graduate students, honours undergraduate researchers, and postdocs interested in microbial ecology, genomics, and bioinformatics.
+        The **Microbial Adaptation & Evolution (MAE) Lab** at Brandon University welcomes motivated graduate students (MSc), undergraduate thesis/honours students, and postdoctoral fellows interested in microbial ecology, evolutionary genomics, and plant-microbiome interactions.
 
-        Interested applicants should contact **Dr. Javad Sadeghi** at `sadeghij@brandonu.ca` with your CV and a brief statement of research interests.
+        If you are interested in joining our group, please email **Dr. Javad Sadeghi** at `sadeghij@brandonu.ca` with your CV and a brief statement describing your research interests and academic background.
+    design:
+      columns: "1"
 ---
