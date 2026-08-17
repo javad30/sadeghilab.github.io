@@ -10,12 +10,12 @@ sections:
       title: "Microbial Adaptation & Evolution Lab"
       text: "Investigating the genomic, ecological, and evolutionary mechanisms driving microbial communities and plant-microbiome interactions under environmental change."
       image:
-        filename: ""
+        filename: "logo.png"
       cta:
         label: "Meet Our Team"
         url: "/people/"
       cta_alt:
-        label: "Contact Us"
+        label: "Contact & Join Us"
         url: "mailto:sadeghij@brandonu.ca"
     design:
       background:
